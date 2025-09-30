@@ -1,0 +1,6 @@
+## Crear imagen kali usando Dockerfile
+sudo docker build -t kali:curso-duoc .
+
+## Crear contenedor
+sudo docker run -it --name c_kali_duoc kali:curso-duoc
+
